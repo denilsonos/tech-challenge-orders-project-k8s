@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: fiap-app
-        image: viniciusms1/postech-fiap-sa2023:latest
+        image: soareshelio/fiap-app:latest
         ports:
         - containerPort: 3000
         envFrom:
